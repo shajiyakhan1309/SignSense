@@ -8,7 +8,7 @@ const app = express();
 // Middleware to parse JSON data
 app.use(bodyParser.json());
 
-// MongoDB Connection
+// MongoDB Connection  
 mongoose
   .connect("mongodb://127.0.0.1:27017/signsense", {
     useNewUrlParser: true,

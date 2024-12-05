@@ -11,7 +11,7 @@ const signSchema = new mongoose.Schema({
   },
   language: {
     type: String,
-    default: "English", // Optional: Support for multiple languages
+    default: "English", 
   },
 });
 

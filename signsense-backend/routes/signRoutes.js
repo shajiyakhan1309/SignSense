@@ -2,7 +2,7 @@ const express = require("express");
 const router = express.Router();
 const Sign = require("../models/signModel");
 
-// POST: Add a New Sign
+
 router.post("/", async (req, res) => {
   try {
     const { gestureData, meaning, language } = req.body;

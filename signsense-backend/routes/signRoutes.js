@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const Sign = require("../models/signModel");  // Ensure this path is correct
+const Sign = require("../models/signModel");
 
 // POST: Add a New Sign
 router.post("/", async (req, res) => {
